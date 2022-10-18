@@ -1,0 +1,31 @@
+{
+  "name": "@gazzati/node-config",
+  "version": "1.2.1",
+  "description": "ESLint + Prettier config for NodeJS applications",
+  "main": "index.js",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "@typescript-eslint/parser": "^5.40.1",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^27.1.2",
+    "prettier": "^2.7.1"
+  },
+  "keywords": [
+    "config",
+    "ecmascript",
+    "eslint",
+    "eslintconfig",
+    "javascript",
+    "lint",
+    "nodejs",
+    "prettier"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gazzati/node-config.git"
+  },
+  "author": "Timur Gaazev",
+  "license": "MIT"
+}

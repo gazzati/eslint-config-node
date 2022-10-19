@@ -6,12 +6,6 @@ module.exports = {
         "jest/globals": true
     },
     parser: "@typescript-eslint/parser",
-    parserOptions: {
-        sourceType: "module",
-        ecmaVersion: 2019,
-        tsconfigRootDir: __dirname,
-        project: ["./tsconfig.eslint.json"]
-    },
     plugins: ["@typescript-eslint", "jest", "import"],
     extends: [
         "eslint:recommended",

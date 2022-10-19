@@ -28,7 +28,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gazzati/node-config.git"
+    "url": "git+https://github.com/gazzati/eslint-config-node.git"
   },
   "author": "Timur Gaazev",
   "license": "MIT"

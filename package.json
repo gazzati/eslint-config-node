@@ -1,13 +1,11 @@
 {
   "name": "@gazzati/eslint-config-node",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "ESLint + Prettier config for NodeJS applications",
   "main": "index.js",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.40.1",
     "@typescript-eslint/parser": "^5.40.1",
-    "@wavix/eslint-config-wavix": "^1.0.1",
-    "@wavix/lcr": "^2.1.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jest": "^27.1.2",

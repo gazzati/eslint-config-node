@@ -23,21 +23,6 @@ module.exports = {
             {
                 pathGroups: [
                     {
-                        pattern: "@wavix/**",
-                        group: "external",
-                        position: "after"
-                    },
-                    {
-                        pattern: "@faker-js/**",
-                        group: "external",
-                        position: "after"
-                    },
-                    {
-                        pattern: "@sentry/**",
-                        group: "external",
-                        position: "after"
-                    },
-                    {
                         pattern: "@root/**",
                         group: "parent",
                         position: "before"

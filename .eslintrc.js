@@ -2,14 +2,12 @@ module.exports = {
     root: true,
     env: {
         es6: true,
-        node: true,
-        "jest/globals": true
+        node: true
     },
     parser: "@typescript-eslint/parser",
-    plugins: ["@typescript-eslint", "jest", "import"],
+    plugins: ["@typescript-eslint", "import"],
     extends: [
         "eslint:recommended",
-        "plugin:jest/recommended",
         "plugin:@typescript-eslint/recommended-requiring-type-checking",
         "plugin:@typescript-eslint/recommended",
         "plugin:import/typescript",
@@ -103,9 +101,6 @@ module.exports = {
                 args: "after-used",
                 ignoreRestSiblings: false
             }
-        ],
-
-        "jest/no-export": "off",
-        "jest/no-commented-out-tests": "off"
+        ]
     }
 }

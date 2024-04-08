@@ -1,6 +1,6 @@
 {
   "name": "@gazzati/eslint-config-node",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "ESLint + Prettier config for NodeJS applications",
   "main": "index.js",
   "dependencies": {
